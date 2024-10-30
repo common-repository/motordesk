@@ -1,0 +1,100 @@
+/* MotorDesk Plugin CSS */
+
+.motordesk-search-form {
+    border: 1px solid #000;
+    padding: 0.5em;
+}
+
+.motordesk-search-form > div {
+    width: 96%;
+    display: inline-block;
+    padding: 0.5em;
+}
+
+@media (min-width: 600px) {
+    .motordesk-search-form > div {
+        width: 43%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .motordesk-search-form > div {
+        width: 33%;
+    }
+}
+
+.motordesk-select-style .motordesk-select {
+    width: 100%;
+    padding: 0.25em;
+}
+
+.motordesk-select-style .motordesk-search-range .motordesk-select {
+    width: 46%;
+}
+
+.motordesk-search-range {
+    white-space: nowrap;
+}
+
+.motordesk-search-range > div {
+    display: inline-block;
+    width: 40%;
+}
+
+.motordesk-search-result {
+    overflow: auto;
+}
+
+.motordesk-search-vehicle {
+    cursor: pointer;
+    width: 99.5%;
+    border: 1px solid #000;
+    padding: 0px;
+    margin-top: 1em;
+}
+
+@media (min-width: 600px) {
+    .motordesk-search-vehicle {
+        width: 47%;
+        float: left;
+        clear: left;
+    }
+    .motordesk-search-vehicle:nth-of-type(even) {
+        float: right;
+        clear: right;
+    }
+}
+
+.motordesk-search-vehicle > div {
+    padding: 0.75em;
+    padding-top: 0.5em;
+}
+
+.motordesk-search-vehicle > div > a {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.motordesk-search nav {
+    margin-top: 1em;
+    clear: both;
+}
+
+.motordesk-search nav a {
+    border: 1px solid #000;
+    padding: 0.35em;
+    text-decoration: none;
+    margin-right: 0.15em;
+}
+
+.motordesk-vehicle-feature {
+    border: 1px solid #000;
+    padding: 0.75em;
+}
+
+.motordesk-hide {
+    display: none;
+}
